@@ -1,4 +1,3 @@
-import "./style.css";
 "use strict";
 
 const header = document.querySelector(".hero-section");
