@@ -1,5 +1,5 @@
-"use strict";
 import "./style.css";
+"use strict";
 
 const header = document.querySelector(".hero-section");
 
@@ -8,7 +8,7 @@ const allSections = document.querySelectorAll("section");
 
 const revealSection = function (entries, observer) {
   const [entry] = entries;
-  console.log(entry);
+  // console.log(entry);
 
   if (!entry.isIntersecting) return;
   entry.target.classList.remove("section_hidden");
