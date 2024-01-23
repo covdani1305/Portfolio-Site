@@ -12,10 +12,22 @@ body {
   margin: auto;
   color: #1c2321;
 }
+header {
+  margin-bottom: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  transition: transform 1s, opacity 1s;
+}
 section {
   margin-bottom: 10rem;
   margin-left: 3rem;
   margin-right: 3rem;
+  transition: transform 1s, opacity 1s;
+}
+
+.section_hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 h2 {
   font-size: 1.8rem;
@@ -29,7 +41,10 @@ p {
 .hero-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 10rem auto;
+  /* margin: 10rem auto; */
+   border-bottom: 1px solid #cccccc;
+   padding: 10rem 0;
+   
 }
 .hero-img {
   width: 30rem;
@@ -45,13 +60,6 @@ p {
   font-size: 4.6rem;
   font-weight: 500;
 }
-.hero-border {
-  width: 100%;
-  height: 0.1rem;
-  background-color: #1c2321;
-  opacity: 40%;
-  margin-bottom: 9rem;
-}
 
 .tech-text-div {
   height: 2rem;
@@ -63,25 +71,53 @@ p {
 .projects {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
 }
 .projects_list {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
   padding: 0;
-  /* max-width: 100%; */
 }
 .project_container {
   display: flex;
- 
+
   width: 100%;
   gap: 5rem;
 }
 .project_img {
   width: 30rem;
-   border-radius: 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+.project_img:hover {
+  box-shadow: 0rem 0rem 1rem 0.1rem #c9c9c9;
 }
 .project_description {
+  max-width: 100%;
   display: flex;
-  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.project_description p {
+  padding: 0;
+  margin: 0;
+}
+.github_link {
+  max-width: fit-content;
+}
+.github_icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.contacts_list {
+  list-style: none;
+  padding: 0;
+}
+
+.open_weather_link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #1c2321;
 }
