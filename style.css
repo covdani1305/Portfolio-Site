@@ -119,6 +119,11 @@ svg {
   width: 3.2rem;
   height: 3.2rem;
 }
+.open_weather_link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #1c2321;
+}
 .contacts_list {
   list-style: none;
   padding: 0;
@@ -126,9 +131,17 @@ svg {
   flex-direction: column;
   gap: 1.6rem;
 }
-
-.open_weather_link {
-  font-weight: 600;
+.contacts_list_item a {
   text-decoration: none;
+  color: #1c2321;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacts_icon {
+  width: 3.2rem;
+  height: 3.2rem;
   color: #1c2321;
 }
