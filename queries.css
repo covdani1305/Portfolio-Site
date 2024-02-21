@@ -1,0 +1,75 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+html {
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 1280px) {
+  header {
+    margin: 0rem;
+    margin-bottom: 9rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 950px) {
+  body {
+    max-width: 70em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 750px) {
+  body {
+    max-width: 60em;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+  .hero-img {
+    width: 50rem;
+    height: auto;
+  }
+  .hero-text {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-name {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+  }
+  .hero-position {
+    font-size: 2.4em;
+    margin: 0;
+    font-weight: 400;
+  }
+  .project_container {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .project_description {
+    flex-direction: row;
+    gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  .hero-section {
+    padding-top: 0;
+    padding-bottom: 15rem;
+ gap: 15rem;
+  }
+  .hero-img {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+  .project_img {
+    min-width: 100%;
+  }
+}
