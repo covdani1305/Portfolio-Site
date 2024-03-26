@@ -62,7 +62,7 @@ html {
   .hero-section {
     padding-top: 0;
     padding-bottom: 15rem;
- gap: 15rem;
+    gap: 15rem;
   }
   .hero-img {
     width: 100%;
