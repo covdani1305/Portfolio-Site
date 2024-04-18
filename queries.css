@@ -69,6 +69,15 @@ html {
     border-radius: 0;
     margin: 0;
   }
+  .tech-stack-item{
+    padding: 0;
+    margin: 0;
+  }
+  .tech-text-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem
+  }
   .project_img {
     min-width: 100%;
   }
