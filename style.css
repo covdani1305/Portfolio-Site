@@ -49,7 +49,7 @@ p {
 .hero-img {
   width: 30rem;
   height: 30rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
   object-fit: cover;
@@ -64,7 +64,17 @@ p {
   font-weight: 500;
   margin: 0;
 }
+.experience-h3 {
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
 
+.experience-list {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
 .tech-text-div {
   height: 2rem;
   display: flex;
@@ -73,7 +83,7 @@ p {
   row-gap: 2rem;
   flex-wrap: wrap;
 }
-.tech-stack-item{
+.tech-stack-item {
   margin: 0;
 }
 
@@ -98,7 +108,7 @@ p {
   width: 30rem;
   height: 15rem;
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   transition: all 0.3s;
 }
 .project_img:hover {
@@ -145,6 +155,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 1rem;
+  width: fit-content;
 }
 
 .contacts_icon {
