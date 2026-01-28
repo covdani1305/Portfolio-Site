@@ -1,128 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Covaci Daniel</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
-    <link rel="shortcut icon" href="#" />
-  </head>
-  <body>
-    <header class="hero-section section_hidden">
-      <img class="hero-img" src="img/IMG-min.jpg" alt="daniel" />
-      <div class="hero-text">
-        <p class="hero-name">Covaci Daniel</p>
-        <h2 class="hero-position">Front End Developer</h2>
-      </div>
-    </header>
-    <section class="tech-stack section">
-      <h2>Skills</h2>
-      <div class="tech-text-div">
-        <p class="tech-stack-item">Javascript</p>
-        <p class="tech-stack-item">TypeScript</p>
-        <p class="tech-stack-item">Angular</p>
-        <p class="tech-stack-item">NGRX</p>
-        <p class="tech-stack-item">TailwindCSS</p>
-        <p class="tech-stack-item">Figma</p>
-      </div>
-    </section>
-    <section class="education section">
-      <h2>Experience</h2>
-      <h3 class="experience-h3">Frontend internship at Naqqa Software</h2>
-      <ul class="experience-list">
-        <li>Skills acquired: Angular, NGRX, TypeScript, TailwindCSS</li>
-        <li>During my internship, I was responsible for developing various parts of the UI for a project using Angular and integrating an API for backend communication. I also implemented responsiveness across the app using TailwindCSS. Utilizing NgRx, I successfully integrated state management to enhance the app's interactivity. This experience not only improved my proficiency with Angular and NgRx but also strengthened my problem-solving skills in creating a seamless user experience.</li>
-         <li>Duration: 1.5 months, july-august 2024.</li>
-      </ul>
-    </section>
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Covaci Daniel - Front End Developer</title>
+    <meta name="description"
+          content="Covaci Daniel - Front End Developer specializing in Angular, TypeScript, NGRX, and TailwindCSS. Portfolio and contact info."/>
+    <meta name="author" content="Covaci Daniel"/>
+    <meta name="keywords"
+          content="Front End Developer, Angular, TypeScript, NGRX, TailwindCSS, Portfolio, Web Developer, JavaScript"/>
 
-    <section class="projects section">
-      <h2>Personal projects</h2>
-      <ul class="projects_list">
-        <li class="project_container">
-          <a href="https://customfitsaunas.netlify.app" target="_blank">
-            <img
-              class="project_img"
-              src="./img/CustomFitSaunas.jpg"
-              alt="ShutterFlare project image."
-            />
-          </a>
-          <div class="project_description">
-            <p>
-              Custom Fit Saunas, a company that specializes in building finish
-              style saunas, I designed and built the UI of their website using
-              HTML, CSS and Javascript.
-            </p>
-            <a
-              class="github_link"
-              href="https://github.com/covdani1305/CustomFitSaunas"
-              target="_blank"
-              ><img class="github_icon" src="./img/github-mark.svg" alt=""
-            /></a>
-          </div>
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Covaci Daniel - Front End Developer"/>
+    <meta property="og:description"
+          content="Portfolio of Covaci Daniel, showcasing skills in Angular, TypeScript, NGRX, and TailwindCSS."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://your-website-url.com"/>
+    <meta property="og:image" content="https://your-website-url.com/img/IMG-min.webp"/>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Covaci Daniel - Front End Developer"/>
+    <meta name="twitter:description"
+          content="Portfolio of Covaci Daniel, showcasing skills in Angular, TypeScript, NGRX, and TailwindCSS."/>
+    <meta name="twitter:image" content="https://your-website-url.com/img/IMG-min.webp"/>
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <!-- Preload Hero Image -->
+    <link rel="preload" href="img/IMG-min.webp" as="image"/>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="queries.css"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#"/>
+</head>
+
+<body>
+<header class="hero-section">
+    <img class="hero-img" src="img/IMG-min.webp" alt="daniel"/>
+    <div class="hero-text">
+        <p class="hero-name">Covaci Daniel</p>
+        <div>
+            <h2 class="hero-position">Front End Developer</h2>
+            <h3 class="hero-location">Chisinau, Moldova</h3>
+        </div>
+    </div>
+</header>
+<section class="tech-stack section">
+    <h2>Skills</h2>
+    <ul class="tech-text-div">
+        <li class="tech-stack-item">Javascript</li>
+        <li class="tech-stack-item">TypeScript</li>
+        <li class="tech-stack-item">Angular</li>
+        <li class="tech-stack-item">NGRX</li>
+        <li class="tech-stack-item">TailwindCSS</li>
+        <li class="tech-stack-item">Figma</li>
+    </ul>
+</section>
+<section class="education section">
+    <h2>Experience</h2>
+    <h3 class="experience-h3">Frontend Developer at Naqqa Software</h3>
+    <ul class="experience-list">
+        <li>Skills: Angular, TypeScript, SpringBoot, Java, PostgreSQL, Docker, NGINX, Capacitor, SignalStore(state
+            management)
         </li>
-        <li class="project_container">
-          <a href="https://shutterflare.netlify.app" target="_blank">
-            <img
-              class="project_img"
-              src="./img/ShutterFlareImg.jpg"
-              alt="ShutterFlare project image."
-            />
-          </a>
-          <div class="project_description">
-            <p>
-              ShutterFlare, a landing page for a photography and videography
-              company that specializes in providing exceptional services for
-              events of all kinds.
-            </p>
-            <a
-              class="github_link"
-              href="https://github.com/covdani1305/ShutterFlare"
-              target="_blank"
-              ><img class="github_icon" src="./img/github-mark.svg" alt=""
-            /></a>
-          </div>
+        <li>Frontend-focused developer leading Angular application development, designing complex UI features for
+            responsive and interactive user experiences. Built full backend applications and reusable Java/Spring Boot
+            modules, including RBAC, authentication, and file storage, structured as Maven packages. Experienced with
+            DevOps tasks such as Docker containerization, NGINX deployment, and PostgreSQL management, and contributed
+            to hybrid mobile apps using Capacitor.
         </li>
-      </ul>
-    </section>
-    <section class="contacts section">
-      <h2>Contacts</h2>
-      <ul class="contacts_list">
+        <li>Duration: September 2024 – Present</li>
+    </ul>
+    <h3 class="experience-h3">Frontend intern at Naqqa Software</h3>
+    <ul class="experience-list">
+        <li>Skills: Angular, NgRx, TypeScript</li>
+        <li>Developed UI features in Angular, integrated backend APIs, and implemented state management using NgRx to
+            improve application interactivity and user experience.
+        </li>
+        <li>Duration: 1.5 months (July–August 2024)</li>
+    </ul>
+</section>
+<section class="contacts section">
+    <h2>Contacts</h2>
+    <ul class="contacts_list">
         <li class="contacts_list_item">
-          <a href="mailto:covdani1305@gmail.com" target="_blank"
-            ><img class="contacts_icon" src="./img/mail-outline.svg" alt="" />
-            covdani1305@gmail.com</a
-          >
+            <a href="mailto:covdani1305@gmail.com" target="_blank">covdani1305@gmail.com</a>
         </li>
         <li class="contacts_list_item">
-          <a href="tel:+373 79916988" target="_blank"
-            ><img class="contacts_icon" src="./img/call-outline.svg" alt="" />
-            +373 79916988</a
-          >
+            <a href="tel:+373 79916988" target="_blank">+373 79916988</a>
         </li>
         <li class="contacts_list_item">
-          <a
-            href="https://www.linkedin.com/in/daniel-covaci-1a7232265/"
-            target="_blank"
-            ><img class="contacts_icon" src="./img/linkedIn.svg" alt="" />
-            LinkedIn</a
-          >
+            <a href="https://www.linkedin.com/in/daniel-covaci-1a7232265/" target="_blank">LinkedIn</a>
         </li>
         <li class="contacts_list_item">
-          <a href="https://github.com/covdani1305" target="_blank"
-            ><img class="contacts_icon" src="./img//github-mark.svg" alt="" />
-            Github</a
-          >
+            <a href="https://github.com/covdani1305" target="_blank">Github</a>
         </li>
-      </ul>
-    </section>
-    <script defer src="main.js" type="module"></script>
-  </body>
+    </ul>
+</section>
+<!--<script defer src="main.js" type="module"></script>-->
+</body>
 </html>
